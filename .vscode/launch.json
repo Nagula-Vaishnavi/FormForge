@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FormForgeApplication",
+            "request": "launch",
+            "mainClass": "com.wufoo.clone.FormForgeApplication",
+            "projectName": "wufoo-clone"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WufooCloneApplication<wufoo-clone>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.wufoo.clone.WufooCloneApplication",
+            "projectName": "wufoo-clone",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
